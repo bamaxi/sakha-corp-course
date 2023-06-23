@@ -1,0 +1,91 @@
+!!!sakha.lexc!!!
+
+Multichar_Symbols GUESS+ ^NOUNGUESS ^VERBGUESS +pos +N +deriv +ag +dim1 +dim2 +dim3 +dim4 +dim5 +nmlz +instr.nom +nmlz2 +nmlz3 +dvb +dvb2 +ag.nom +num +sg +pl +case +nom +acc +part +dat +abl +ins +com +cmpr +poss +1sg +2sg +3sg +1pl +2pl +3pl
+
+
+
+LEXICON Root
+
+N ;
+V ;
+
+LEXICON N
+GUESS+^NOUNGUESS:0^NOUNGUESS Nstem;
+таба Nstem;
+балык Nstem;
+лекарство:эмп Nstem;
+байхал Nstem;
+сурук Nstem;
+баай Nstem;
+орон Nstem;
+
+LEXICON V
+GUESS+^VERBGUESS:0^VERBGUESS Vstem;
+
+
+
+LEXICON Nstem
+
++pos+N:^ Ninfl;
++pos+N:^ NsourceDerivation;
+
+
+LEXICON NAdjStem
+
+Ninfl ;
+
+
+LEXICON NsourceDerivation
+
+VNaffix ;
+NNaffix ;
+
+
+LEXICON NNaffix
+
++deriv+ag:һыт^ Ninfl;
++deriv+dim1:чык^ ;
++deriv+dim2:ка^ Ninfl;
++deriv+dim3:чаан^ Ninfl;
++deriv+dim4:кай^ Ninfl;
++deriv+dim5:ыйа^ Ninfl;
++deriv+nmlz:был^ Ninfl;
++deriv+instr.nom:ах^ Ninfl;
++deriv+nmlz2:лаҥ^ Ninfl;
++deriv+nmlz3:лта^ Ninfl;
+
+
+LEXICON VNaffix
+
++deriv+dvb:ыы^ Ninfl;
++deriv+dvb2:һын^ Ninfl;
++deriv+ag.nom:ааччы^ Ninfl;
+
+
+LEXICON Ninfl
+
++num+sg:0 Ncase;
++num+pl:лар^ Ncase;
+
+
+LEXICON Ncase
+
++case+nom:0 NPossNom;
++case+acc:ы^ #;
++case+part:та^ #;
++case+dat:га^ #;
++case+abl:тан^ #;
++case+ins:нан^ #;
++case+com:лыын^ #;
++case+cmpr:тааҕар^ #;
+
+
+LEXICON NPossNom
+
+0 #;
++poss+1sg:м^ #;
++poss+2sg:ҥ^ #;
++poss+3sg:а^ #;
++poss+1pl:быт^ #;
++poss+2pl:гыт^ #;
++poss+3pl:лара^ #;

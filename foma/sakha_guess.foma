@@ -1,0 +1,267 @@
+### sakha.foma ###
+
+define BackVNonLab [ а | а а | ы | ы ы | ы а ];
+define FrontVNonLab [ э | э э | и | и и | и э ];
+define FrontHighVLab [ ү | ү ү | ү ө ];
+define FrontLowVLab [ ө | ө ө ];
+define BackHighVLab [ у | у у | у о ];
+define BackLowVLab [ о | о о ];
+define Vowel [ а | а а | ы | ы ы | ы а | э | э э | и | и и | и э | ү | ү ү | ү ө | ө | ө ө | у | у у | у о | о | о о ];
+define Consonant [ б | в | г | ҕ | д | д ь | ж | з | й | к | л | м | н | ҥ | н ь | п | р | с | һ | т | ф | х | ц | ч | ш | щ | ъ | ь ];
+define VoicelessConsSome [ к | п | с | т | ф | х | ц | ч ];
+define VoicedCons [ б | в | г | ҕ | д | д ь | ж | з | й | р ];
+
+
+## affix_specific
+
+define VerbalizingYJ й  -> ы й  || Consonant "^" _ "^" ;
+
+# allomorphs with vowels (except aar, see deletion below) appear only after consonant
+define VerbalizingR ".drv.vrblz3."  [ы р  |  а р ] -> р  || Vowel "^"  _  ;
+
+define VerbalizingRaar Vowel "^" ".drv.vrblz3." @-> "^" ;
+
+define VerbalizingRaarDelete ".drv.vrblz3." -> 0  ;
+
+define VerbalizingMSYJ м с ы й  -> ы м с ы й  || Consonant "^" _ "^" ;
+
+define VerbalizingRGHAA р ҕ а а  -> ы р ҕ а а  || Consonant "^" _ "^" ;
+
+define PresTenseARafterVowel а р  -> ы ы р  || Vowel "^" ".tns.pres."  _  ;
+
+define PresTenseYYR Vowel "^" ".tns.pres."  @-> "^" ;
+
+define PresTenseAR1or2 ".tns.pres." а р  -> а  || "^" _ "^" [".1sg." | ".1pl." | ".2sg." | ".2pl." ] ;
+
+define PresTenseYYR1or2 ".tns.pres." ы ы р  -> ы ы  || "^" _ "^" [".1sg." | ".1pl." | ".2sg." | ".2pl." ] ;
+
+define PresTenseAR3PL ".tns.pres." а р  -> а л  || "^" _ "^" ".3pl." ;
+
+define PresTenseYYR3PL ".tns.pres." ы ы р  -> ы ы л  || "^" _ "^" ".3pl." ;
+
+define DeleteTensePres ".tns.pres." -> 0  ;
+
+define FutTenseContrNeg [".tns.fut.neg." |  ".tns.fut.contr."] ы а х   -> ы а  || "^" _ "^" [".1sg." | ".2sg." | ".3sg." ] ;
+
+define FutTenseContrPos ".tns.fut." ы а х  (->) ы а  || "^" _ "^" [".1sg." | ".2sg." | ".3sg." ] ;
+
+define FutTenseContr3SG ы а  "^" ".3sg." а  -> ы а  || "^" _  ;
+
+define DeleteFut ".tns.fut." |  ".tns.fut.neg." |  ".tns.fut.contr." -> 0  ;
+
+define DeletePers ".1sg." |  ".1pl." |  ".2sg." |  ".2pl." |  ".3sg." |  ".3pl." -> 0  ;
+
+define CVBant ".cvb.ant." н  -> а н  || Consonant "^"  _  ;
+
+define CVBantDelete ".cvb.ant." -> 0  ;
+
+define CVBSim Vowel "^" ".cvb.sim." а  @-> ы ы  ;
+
+define CVBSimDelete ".cvb.sim." -> 0  ;
+
+define CVBPurp а а р ы  -> р ы  || Vowel "^" ".cvb.purp." _  ;
+
+define CVBPurpDelete ".cvb.purp." -> 0  ;
+
+define CaseAcc ы  -> н ы  || Vowel "^" _ "^" ;
+
+define CaseAbl т а н  -> т т а н  || Vowel "^" _ "^" ;
+
+define CaseIns н а н  -> ы н а н  || Consonant "^" _ "^" ;
+
+define PossOneSG м  -> ы м  || Consonant "^" _ "^" ;
+
+define PossTwoSG ҥ  -> ы ҥ  || Consonant "^" _ "^" ;
+
+define PossThreeSG ".poss3sg." -> т  || Vowel "^" _  ;
+
+define PossThreeSGDelete ".poss3sg." -> 0  ;
+
+define PossThreePL "^" л а р  "^" л а р  -> "^" л а р  ;
+
+## consonants
+
+define VelarPlosiveLoss ҥ  к  -> ҥ  ||  _ "^" ;
+
+define Voicing к  -> г  , п  -> б  , с  -> һ  , х  -> ҕ  , т  -> д  ||  _ "^" Vowel ;
+
+define VoicingPostCons к  -> г  , п  -> б  , с  -> һ  , х  -> ҕ  , т  -> д  , ч  -> д ь  || VoicedCons "^" _  ;
+
+define Devoicing г  -> к  , б  -> п  , һ  -> с  , ҕ  -> х  || [к | п | с | х] "^" _  ;
+
+define NasalCH ч  -> н ь  || [ҥ | м | н] "^" _  ;
+
+define NasalH һ  -> н ь  || [ҥ | м | н] "^" _  ;
+
+define VoicedH һ  -> д ь  || [й | р | л] "^" _  ;
+
+define VoicedCH ч  -> д ь  || й _  ;
+
+define NasalB б  -> м  || ҥ "^" _  ;
+
+define NasalBAssimN н  "^" б  -> м  "^" м  ;
+
+define DevoicedBAssimN т  "^" б  -> п  "^" п  ;
+
+define NasalL л  -> н  || [ҥ | м | н] "^" _  ;
+
+define DevoicedGHColloquial ҕ  (->) х  || й _  ;
+
+define PlosiveGH ҕ  -> г  || [ы | у | и | ү | й | л | р] "^" _  ;
+
+define NasalGHAssimN н  "^" ҕ  -> ҥ  "^" ҥ  ;
+
+define NasalGH ҕ  -> ҥ  || н "^" _  ;
+
+define PlosiveGHAssimT т  "^" ҕ  -> к  "^" к  ;
+
+define PlosiveHAssimT т  "^" һ  -> т  "^" ч  ;
+
+define DevoicedGH ҕ  -> х  || х "^" _  ;
+
+define DevoicedB б  -> п  || VoicelessConsSome "^" _  ;
+
+define DevoicedL л  -> т  || VoicelessConsSome "^" _  ;
+
+define PlosiveL л  -> д  || [й | р] "^" _  ;
+
+define PlosiveH һ  -> д ь  || [й | р | л] "^" _  ;
+
+define AssimilatedGHdevoiced ҕ  -> к  || VoicelessConsSome "^" _  ;
+
+define DeleteStemPart т  -> 0  , п  -> 0  , к  -> 0  || л  "^" _ п  , м  "^" _ к  , ҥ  "^" _ п  , ҥ  "^" _ т  ;
+
+define AssimilationCHIncosistent с ч  (->) ч ч  , т ч  (->) ч ч  ;
+
+define SimplifyTCHInconsistent т ч  (->) ч  ;
+
+## harmony
+
+define NonLabFront а  -> э  , ы  -> и  , ы а  -> и э  || FrontVNonLab Consonant* "^" [? - "^"]* _  ;
+
+define NonLabBack э  -> а  , и  -> ы  , и э  -> ы а  || BackVNonLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontHighFromBack а  -> э  , ы  -> ү  , ы а  -> ү ө  || FrontHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontHighFromFront э  -> э  , и  -> ү  , и э  -> ү ө  || FrontHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontLowFromBack а  -> ө  , ы  -> ү  , ы а  -> ү ө  || FrontLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontLowFromFront э  -> ө  , и  -> ү  , и э  -> ү ө  || FrontLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackHighFromBack а  -> а  , ы  -> у  , ы а  -> у о  || BackHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackHighFromFront э  -> а  , и  -> у  , и э  -> у о  || BackHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackLowFromBack а  -> о  , ы  -> у  , ы а  -> у о  || BackLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackLowFromFront э  -> о  , и  -> у  , и э  -> у о  || BackLowVLab Consonant* "^" [? - "^"]* _  ;
+
+## technical
+
+define DeleteLastMorphBoundary "^" -> 0 || _ .#. ;
+define DeleteBoundaries "^" -> 0 ;
+
+
+
+define OrthWord [Consonant* Vowel+ Consonant*]+;
+read lexc sakha.lexc
+substitute defined OrthWord for "^NOUNGUESS"
+substitute defined OrthWord for "^VERBGUESS"
+substitute defined OrthWord for "^TESTGUESS"
+define Lexicon;
+
+define Harmony NonLabFront .o.
+    NonLabBack .o.
+    LabFrontHighFromBack .o.
+    LabFrontHighFromFront .o.
+    LabFrontLowFromBack .o.
+    LabFrontLowFromFront .o.
+    LabBackHighFromBack .o.
+    LabBackHighFromFront .o.
+    LabBackLowFromBack .o.
+LabBackLowFromFront;
+
+
+define BaseGrammar Lexicon .o.
+    VerbalizingYJ .o.
+    VerbalizingR .o.
+    VerbalizingRaar .o.
+    VerbalizingRaarDelete .o.
+    VerbalizingMSYJ .o.
+    VerbalizingRGHAA .o.
+    PresTenseARafterVowel .o.
+    PresTenseYYR .o.
+    PresTenseAR1or2 .o.
+    PresTenseYYR1or2 .o.
+    PresTenseAR3PL .o.
+    PresTenseYYR3PL .o.
+    DeleteTensePres .o.
+    FutTenseContrNeg .o.
+    FutTenseContrPos .o.
+    FutTenseContr3SG .o.
+    DeleteFut .o.
+    DeletePers .o.
+    CVBant .o.
+    CVBantDelete .o.
+    CVBSim .o.
+    CVBSimDelete .o.
+    CVBPurp .o.
+    CVBPurpDelete .o.
+    CaseAcc .o.
+    CaseAbl .o.
+    CaseIns .o.
+    PossOneSG .o.
+    PossTwoSG .o.
+    PossThreeSG .o.
+    PossThreeSGDelete .o.
+    PossThreePL .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    Harmony .o.
+    VelarPlosiveLoss .o.
+    Voicing .o.
+    VoicingPostCons .o.
+    Devoicing .o.
+    NasalCH .o.
+    NasalH .o.
+    VoicedH .o.
+    VoicedCH .o.
+    NasalB .o.
+    NasalBAssimN .o.
+    DevoicedBAssimN .o.
+    NasalL .o.
+    DevoicedGHColloquial .o.
+    PlosiveGH .o.
+    NasalGHAssimN .o.
+    NasalGH .o.
+    PlosiveGHAssimT .o.
+    PlosiveHAssimT .o.
+    DevoicedGH .o.
+    DevoicedB .o.
+    DevoicedL .o.
+    PlosiveL .o.
+    PlosiveH .o.
+    AssimilatedGHdevoiced .o.
+    DeleteStemPart .o.
+    AssimilationCHIncosistent .o.
+    SimplifyTCHInconsistent .o.
+DeleteLastMorphBoundary;
+
+#define Grammar [~$["GUESS+"] .o. BaseGrammar] .p. [$["GUESS+"] .o. BaseGrammar];
+
+define Grammar BaseGrammar;
+
+#regex [Grammar.l .o. DeleteBoundaries] | Grammar | [Grammar .o. DeleteBoundaries];
+#regex [BaseGrammar.l .o. DeleteBoundaries] | BaseGrammar | [BaseGrammar .o. DeleteBoundaries];
+#regex [BaseGrammar.l .o. DeleteBoundaries];
+
+#regex Grammar .o. [Grammar.l .o. DeleteBoundaries];
+define Segmenter [Grammar.l .o. DeleteBoundaries];

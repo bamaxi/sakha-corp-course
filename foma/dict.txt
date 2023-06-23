@@ -1,0 +1,13 @@
+LEXICON N
+GUESS+^NOUNGUESS:0^NOUNGUESS Nstem;
+таба Nstem;
+балык Nstem;
+лекарство:эмп Nstem;
+байхал Nstem;
+сурук Nstem;
+баай Nstem;
+орон Nstem;
+
+LEXICON V
+GUESS+^VERBGUESS:0^VERBGUESS Vstem;
+бар Vstem;

@@ -1,0 +1,6 @@
+бар+pos+V+tense+fut+num+sg+pers+3
+бар+pos+V+tense+fut+num+sg+pers+2
+бар+pos+V+tense+fut+num+sg+pers+1
+бар+pos+V+tense+fut+num+pl+pers+3
+бар+pos+V+tense+fut+num+pl+pers+2
+бар+pos+V+tense+fut+num+pl+pers+1

@@ -1,0 +1,548 @@
+!!!sakha.lexc!!!
+
+Multichar_Symbols GUESS+ ^TESTGUESS ^NOUNGUESS ^VERBGUESS +pos +N +deriv +ag +dim1 +dim2 +dim3 +dim4 +dim5 +nmlz +instr.nom +nmlz2 +nmlz3 +dvb +dvb2 +ag.nom +num +sg +pl +case +nom +acc +part +dat +abl +ins +com +cmpr +poss +1sg +2sg +3sg .poss3sg. +1pl +2pl +3pl .lar. +gen +vblz +vblz4 +vblz2 +vblz3 .drv.vblz3. +vblz5 +vblz6 +vblz7 +V +tense +pres .tns.pres. +polarity +neg +impf +pst.narr +pst.res1 +fut .tns.fut. .tns.fut.neg. +ptcp.pres +advlz +ADV +ptcp.pst +ptcp.fut +mood +epist +ptcp.epist +con2 +deont +ptcp.deont +pst.epsd +ptcp.epsd +fut.deont +usual +ptcp.ag.usual +pst +cvb.ant .cvb.ant. +cvb.ant/sim +cvb.sim .cvb.sim. +cvb.purp .cvb.purp. +cvb.immed.ant .cvb.immed. +attd +pers +1 .1sg. +2 .2sg. +3 .3sg. .1pl. .2pl. .3pl. +deadj
+
+
+
+LEXICON Root
+
+N ;
+V ;
+TEST ;
+
+LEXICON TEST
+
+ба TESTstem;
+бабай TESTstem;
+GUESS+^TESTGUESS:0^TESTGUESS TESTstem;
+
+LEXICON TESTstem
++deriv:^ка #;
++deriv2:^га #;
++deriv3:^бай TESTstem;
+
+LEXICON N
+GUESS+^NOUNGUESS:0^NOUNGUESS Nstem;
+таба Nstem;
+балык Nstem;
+лекарство:эмп Nstem;
+байхал Nstem;
+сурук Nstem;
+баай Nstem;
+орон Nstem;
+
+LEXICON V
+GUESS+^VERBGUESS:0^VERBGUESS Vstem;
+бар Vstem;
+
+
+LEXICON Nstem
+
++pos+N:^ Ninfl;
++pos+N:^ NsourceDerivation;
+
+
+LEXICON NsourceDerivation
+
+NNaffix ;
+Vaffix ;
+NVaffix ;
+NominalVaffix ;
+
+LEXICON NNaffix
+
++deriv+ag:һыт^ Ninfl;
++deriv+dim1:чык^ Ninfl;
++deriv+dim2:ка^ Ninfl;
++deriv+dim3:чаан^ Ninfl;
++deriv+dim4:кай^ Ninfl;
++deriv+dim5:ыйа^ Ninfl;
++deriv+nmlz:был^ Ninfl;
++deriv+instr.nom:ах^ Ninfl;
++deriv+nmlz2:лаҥ^ Ninfl;
++deriv+nmlz3:лта^ Ninfl;
+
+
+LEXICON VNaffix
+
++deriv+dvb:ыы^ Ninfl;
++deriv+dvb2:һын^ Ninfl;
++deriv+ag.nom:ааччы^ Ninfl;
+
+
+LEXICON Ninfl
+
++num+sg:0 Ncase;
++num+sg:0 NPoss;
++num+pl:лар^ Ncase;
++num+pl:лар^ NPoss;
+
+
+LEXICON Ncase
+
++case+nom:0 #;
++case+acc:ы^ #;
++case+part:та^ #;
++case+dat:га^ #;
++case+abl:тан^ #;
++case+ins:нан^ #;
++case+com:лыын^ #;
++case+cmpr:тааҕар^ #;
+
+
+LEXICON NPoss
+
+NPossNom ;
+NPossAcc ;
+NPossPart ;
+
+
+LEXICON NPossNom
+
++case+nom+poss+1sg:м^ #;
++case+nom+poss+2sg:ҥ^ #;
++case+nom+poss+3sg:.poss3sg.а^ #;
++case+nom+poss+1pl:быт^ #;
++case+nom+poss+2pl:гыт^ #;
++case+nom+poss+3pl:.lar.лара^ #;
+
+
+LEXICON NPossGen
+
++case+gen+poss+3sg:.poss3sg.ын^ #;
++case+gen+poss+3pl:.lar.ларын^ #;
+
+
+LEXICON NPossAcc
+
++case+acc+poss+1sg:бын^ #;
++case+acc+poss+2sg:ҕын^ #;
++case+acc+poss+3sg:.poss3sg.ын^ #;
++case+acc+poss+1pl:бытын^ #;
++case+acc+poss+2pl:ҕытын^ #;
++case+acc+poss+3pl:.lar.ларын^ #;
+
+
+LEXICON NPossPart
+
++case+acc+poss+1sg:бына^ #;
++case+part+poss+2sg:ҕына^ #;
++case+part+poss+3sg:.poss3sg.ына^ #;
++case+part+poss+1pl:бытына^ #;
++case+part+poss+2pl:ҕытына^ #;
++case+part+poss+3pl:.lar.ларына^ #;
+
+
+LEXICON NPossDat
+
++case+dat+poss+1sg:бар^ #;
++case+dat+poss+2sg:ҕар^ #;
++case+dat+poss+3sg:.poss3sg.ыгар^ #;
++case+dat+poss+1pl:бытыгар^ #;
++case+dat+poss+2pl:ҕытыгар^ #;
++case+dat+poss+3pl:.lar.ларыгар^ #;
+
+
+LEXICON NPossAbl
+
++case+abl+poss+1sg:быттан^ #;
++case+abl+poss+2sg:ҕыттан^ #;
++case+abl+poss+3sg:.poss3sg.ыттан^ #;
++case+abl+poss+1pl:бытыттан^ #;
++case+abl+poss+2pl:ҕытыттан^ #;
++case+abl+poss+3pl:.lar.ларыттан^ #;
+
+
+LEXICON NPossIns
+
++case+ins+poss+1sg:бынан^ #;
++case+ins+poss+2sg:ҕынан^ #;
++case+ins+poss+3sg:.poss3sg.ынан^ #;
++case+ins+poss+1pl:бытынан^ #;
++case+ins+poss+2pl:ҕытынан^ #;
++case+ins+poss+3pl:.lar.ларынан^ #;
+
+
+LEXICON NPossCom
+
++case+com+poss+1sg:быныын^ #;
++case+com+poss+1sg:бынаан^ #;
++case+com+poss+2sg:ҕыныын^ #;
++case+com+poss+2sg:ҕынаан^ #;
++case+com+poss+3sg:.poss3sg.ыныын^ #;
++case+com+poss+3sg:.poss3sg.ынаан^ #;
++case+com+poss+1pl:бытыныын^ #;
++case+com+poss+1pl:бытынаан^ #;
++case+com+poss+2pl:ҕытыныын^ #;
++case+com+poss+2pl:ҕытынаан^ #;
++case+com+poss+3pl:.lar.ларыныын^ #;
++case+com+poss+3pl:.lar.ларынаан^ #;
+
+
+LEXICON NPossCmpr
+
++case+cmpr+poss+1sg:бынааҕар^ #;
++case+cmpr+poss+2sg:ҕынааҕар^ #;
++case+cmpr+poss+3sg:.poss3sg.ынааҕар^ #;
++case+cmpr+poss+1pl:бытынааҕар^ #;
++case+cmpr+poss+2pl:ҕытынааҕар^ #;
++case+cmpr+poss+3pl:.lar.ларынааҕар^ #;
+
+
+LEXICON Vaffix
+
++deriv+vblz:лаа Vstem;
++deriv+vblz4:тый Vstem;
++deriv+vblz4:сый Vstem;
+
+
+LEXICON NVaffix
+
++deriv+vblz2:й Vstem;
+
+
+LEXICON AdjVaffix
+
++deriv+vblz2:й Vstem;
+
+
+LEXICON NominalVaffix
+
++deriv+vblz2:й Vstem;
++deriv+vblz3:.drv.vblz3.ыр Vstem;
++deriv+vblz3:.drv.vblz3.ар Vstem;
++deriv+vblz3:.drv.vblz3.аар Vstem;
++deriv+vblz4:тый Vstem;
++deriv+vblz4:сый Vstem;
++deriv+vblz5:мсый Vstem;
++deriv+vblz6:рҕаа Vstem;
++deriv+vblz7:рый Vstem;
+
+
+LEXICON Vstem
+
++pos+V:^ Vinfl;
++pos+V:^ VsourceDerivation;
+
+
+LEXICON Vinfl
+
+Vindic ;
+Vepist ;
+Vcond2 ;
+Vdeont ;
+Vagent ;
+
+
+LEXICON Vindic
+
+VindicTenses ;
+VindicPtcp ;
+Vcvb ;
+
+
+LEXICON VindicTenses
+
+Vpres ;
+Vimpf ;
+Vfut ;
+Vpst ;
+VpstNarr ;
+VpstRes1 ;
+VpstEpisodic ;
+
+
+LEXICON VindicPtcp
+
+VptcpPres ;
+VptcpPast ;
+VptcpFut ;
+VptcpEpisodic ;
+
+
+LEXICON Vcvb
+
+VcvbAnt ;
+VcvbNeg ;
+VcvbSim ;
+VcvbPurp ;
+VcvbImmedAnt ;
+
+
+LEXICON Vepist
+
+VepistMood ;
+VptcpEpist ;
+
+
+LEXICON Vdeont
+
+VpresDeont ;
+VptcpDeont ;
+VfutDeont ;
+VptcpFutDeont ;
+
+
+LEXICON Vagent
+
+VagentMood ;
+VagentPtcp ;
+
+
+LEXICON Vpres
+
++tense+pres:.tns.pres.ар^ VpredNumPers;
++tense+pres+polarity+neg:бат^ VpredNumPers;
+
+
+LEXICON Vimpf
+
++tense+impf:ар^ VpossNumPers;
++tense+impf+polarity+neg:бат^ VpossNumPers;
+
+
+LEXICON VpstNarr
+
++tense+pst.narr:быт^ VpossNumPers;
++tense+pst.narr+polarity+neg:батах^ VpossNumPers;
+
+
+LEXICON VpstRes1
+
++tense+pst.res1:быт^ VpredNumPers;
++tense+pst.res1+polarity+neg:батах^ VpredNumPers;
+
+
+LEXICON Vfut
+
++tense+fut:.tns.fut.ыах^ VpossNumPers;
++tense+fut+polarity+neg:.tns.fut.neg.ыах^ VpossNumPers;
+
+
+LEXICON VptcpPres
+
++ptcp.pres:.tns.pres.ар^ Ninfl;
++ptcp.pres:.tns.pres.ар^ PtcpPresSourceDeriv;
++ptcp.pres+polarity+neg:бат^ Ninfl;
++ptcp.pres+polarity+neg:бат^ PtcpPresSourceDeriv;
+
+
+LEXICON PtcpPresSourceDeriv
+
++deriv+advlz+pos+ADV:лыы^ #;
+
+
+LEXICON VptcpPast
+
++ptcp.pst:быт^ Ninfl;
++ptcp.pst:быт^ PtcpPstSourceDeriv;
++ptcp.pst+polarity+neg:батах^ Ninfl;
++ptcp.pst+polarity+neg:батах^ PtcpPstSourceDeriv;
+
+
+LEXICON PtcpPstSourceDeriv
+
++deriv+advlz+pos+ADV:лыы^ #;
++deriv+advlz+pos+ADV:ча^ #;
+
+
+LEXICON VptcpFut
+
++ptcp.fut:.tns.fut.ыах^ Ninfl;
++ptcp.fut:.tns.fut.ыах^ PtcpFutSourceDeriv;
++ptcp.fut+polarity+neg:.tns.fut.neg.ыах^ Ninfl;
++ptcp.fut+polarity+neg:.tns.fut.neg.ыах^ PtcpFutSourceDeriv;
+
+
+LEXICON PtcpFutSourceDeriv
+
++deriv+advlz+pos+ADV:лыы^ #;
++deriv+advlz+pos+ADV:лык^ #;
+
+
+LEXICON VepistMood
+
++mood+epist:тах^ VpossNumPers;
++mood+epist+polarity+neg:батах^ VpossNumPers;
+
+
+LEXICON VptcpEpist
+
++ptcp.epist:тах^ Ninfl;
++ptcp.epist:тах^ VpredNumPers;
++ptcp.epist+polarity+neg:батах^ Ninfl;
++ptcp.epist+polarity+neg:батах^ VpredNumPers;
+
+
+LEXICON Vcond2
+
++mood+con2:тах^ VLocPredNumPers;
++mood+con2+polarity+neg:батах^ VLocPredNumPers;
+
+
+LEXICON VpresDeont
+
++mood+deont:ардаах^ VpredNumPers;
++mood+deont+polarity+neg:баттаах^ VpredNumPers;
+
+
+LEXICON VptcpDeont
+
++ptcp.deont:ардаах^ Ninfl;
++ptcp.deont+polarity+neg:баттаах^ Ninfl;
+
+
+LEXICON VpstEpisodic
+
++tense+pst.epsd:быттаах^ VpredNumPers;
++tense+pst.epsd+polarity+neg:батахтаах^ VpredNumPers;
+
+
+LEXICON VptcpEpisodic
+
++ptcp.epsd:быттаах^ Ninfl;
++ptcp.epsd+polarity+neg:батахтаах^ Ninfl;
+
+
+LEXICON VfutDeont
+
++tense+fut.deont:ыахтаах^ VpredNumPers;
++tense+fut.deont+polarity+neg:ымыахтаах^ VpredNumPers;
+
+
+LEXICON VptcpFutDeont
+
++ptcp.deont:ыахтаах^ Ninfl;
++ptcp.deont+polarity+neg:ымыахтаах^ Ninfl;
+
+
+LEXICON VagentMood
+
++mood+usual:ааччы^ VpredNumPers;
++mood+usual+polarity+neg:ааччы^ VpossNumPers;
+
+
+LEXICON VagentPtcp
+
++ptcp.ag.usual:ааччы^ Ninfl;
+
+
+LEXICON Vpst
+
++tense+pst:л^ VpossNumPersPLlar;
++tense+pst+polarity+neg:бат^ VpossNumPersPLlar;
+
+
+LEXICON VcvbAnt
+
++cvb.ant:.cvb.ant.н^ #;
++cvb.ant:.cvb.ant.н^ VpredNumPers;
+
+
+LEXICON VcvbNeg
+
++cvb.ant/sim+polarity+neg:бакка^ #;
++cvb.ant/sim+polarity+neg:бакка^ VpredNumPers;
++cvb.ant/sim+polarity+neg:ымна^ #;
++cvb.ant/sim+polarity+neg:ымна^ VpredNumPers;
++cvb.ant/sim+polarity+neg:ымайа^ #;
++cvb.ant/sim+polarity+neg:ымайа^ VpredNumPers;
+
+
+LEXICON VcvbSim
+
++cvb.sim:.cvb.sim.а^ #;
++cvb.sim:.cvb.sim.а^ VpredNumPers;
+
+
+LEXICON VcvbPurp
+
++cvb.purp:.cvb.purp.аары^ #;
++cvb.purp:.cvb.purp.аары^ VpredNumPers;
++cvb.purp+polarity+neg:ымаары^ #;
++cvb.purp+polarity+neg:ымаары^ VpredNumPers;
+
+
+LEXICON VcvbImmedAnt
+
++cvb.immed.ant:.cvb.immed.аат^ #;
++cvb.immed.ant:.cvb.immed.аат^ NPossAcc;
+
+
+LEXICON VsourceDerivation
+
+VVaffix ;
+VNaffix ;
+
+
+LEXICON VVaffix
+
++deriv+attd:аахтаа^ Vinfl;
+
+
+LEXICON VpossNumPers
+
++num+sg+pers+1:.1sg.м^ #;
++num+sg+pers+2:.2sg.ҥ^ #;
++num+sg+pers+3:.3sg.а^ #;
++num+pl+pers+1:.1pl.быт^ #;
++num+pl+pers+2:.2pl.ҕыт^ #;
++num+pl+pers+3:.3pl.лара^ #;
+
+
+LEXICON VpossNumPersPLlar
+
++num+sg+pers+1:.1sg.м^ #;
++num+sg+pers+2:.2sg.ҥ^ #;
++num+sg+pers+3:.3sg.а^ #;
++num+pl+pers+1:.1pl.быт^ #;
++num+pl+pers+2:.2pl.ҕыт^ #;
++num+pl+pers+3:.3pl.лар^ #;
+
+
+LEXICON VpredNumPers
+
++num+sg+pers+1:.1sg.бын^ #;
++num+sg+pers+2:.2sg.ҕын^ #;
++num+sg+pers+3:.3sg.0 #;
++num+pl+pers+1:.1pl.быт^ #;
++num+pl+pers+2:.2pl.ҕыт^ #;
++num+pl+pers+3:.3pl.лар^ #;
+
+
+LEXICON VLocPredNumPers
+
++num+sg+pers+1:.1sg.бына^ #;
++num+sg+pers+2:.2sg.ҕына^ #;
++num+sg+pers+3:.3sg.ына^ #;
++num+pl+pers+1:.1pl.бытына^ #;
++num+pl+pers+2:.2pl.ҕытына^ #;
++num+pl+pers+3:.3pl.тарына^ #;
+
+
+
+LEXICON AdjSourceDerivation
+
++deriv+deadj:лык^ AdvStem;
+
+
+LEXICON NumStem
+
+NumInfl ;
+NumSourceDerivation ;
+
+
+LEXICON NumSourceDerivation
+
+Vaffix ;
+
+
+LEXICON PronStem
+
+PronInfl ;
+PronSourceDerivation ;
+
+
+LEXICON PronSourceDerivation
+
+Vaffix ;

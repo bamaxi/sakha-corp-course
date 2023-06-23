@@ -1,0 +1,443 @@
+digraph A {
+rankdir = LR;
+node [shape=circle,style=filled] 0
+node [shape=circle,style=filled] 1
+node [shape=circle,style=filled] 2
+node [shape=circle,style=filled] 3
+node [shape=circle,style=filled] 4
+node [shape=circle,style=filled] 5
+node [shape=circle,style=filled] 6
+node [shape=circle,style=filled] 7
+node [shape=circle,style=filled] 8
+node [shape=circle,style=filled] 9
+node [shape=circle,style=filled] 10
+node [shape=circle,style=filled] 11
+node [shape=circle,style=filled] 12
+node [shape=circle,style=filled] 13
+node [shape=circle,style=filled] 14
+node [shape=circle,style=filled] 15
+node [shape=circle,style=filled] 16
+node [shape=circle,style=filled] 17
+node [shape=circle,style=filled] 18
+node [shape=circle,style=filled] 19
+node [shape=circle,style=filled] 20
+node [shape=circle,style=filled] 21
+node [shape=circle,style=filled] 22
+node [shape=circle,style=filled] 23
+node [shape=circle,style=filled] 24
+node [shape=circle,style=filled] 25
+node [shape=circle,style=filled] 26
+node [shape=circle,style=filled] 27
+node [shape=circle,style=filled] 28
+node [shape=circle,style=filled] 29
+node [shape=circle,style=filled] 30
+node [shape=circle,style=filled] 31
+node [shape=circle,style=filled] 32
+node [shape=circle,style=filled] 33
+node [shape=circle,style=filled] 34
+node [shape=circle,style=filled] 35
+node [shape=circle,style=filled] 36
+node [shape=circle,style=filled] 37
+node [shape=circle,style=filled] 38
+node [shape=circle,style=filled] 39
+node [shape=circle,style=filled] 40
+node [shape=circle,style=filled] 41
+node [shape=circle,style=filled] 42
+node [shape=circle,style=filled] 43
+node [shape=circle,style=filled] 44
+node [shape=circle,style=filled] 45
+node [shape=circle,style=filled] 46
+node [shape=circle,style=filled] 47
+node [shape=circle,style=filled] 48
+node [shape=circle,style=filled] 49
+node [shape=circle,style=filled] 50
+node [shape=circle,style=filled] 51
+node [shape=circle,style=filled] 52
+node [shape=circle,style=filled] 53
+node [shape=circle,style=filled] 54
+node [shape=circle,style=filled] 55
+node [shape=circle,style=filled] 56
+node [shape=circle,style=filled] 57
+node [shape=circle,style=filled] 58
+node [shape=circle,style=filled] 59
+node [shape=circle,style=filled] 60
+node [shape=circle,style=filled] 61
+node [shape=circle,style=filled] 62
+node [shape=circle,style=filled] 63
+node [shape=circle,style=filled] 64
+node [shape=circle,style=filled] 65
+node [shape=circle,style=filled] 66
+node [shape=circle,style=filled] 67
+node [shape=circle,style=filled] 68
+node [shape=circle,style=filled] 69
+node [shape=circle,style=filled] 70
+node [shape=circle,style=filled] 71
+node [shape=circle,style=filled] 72
+node [shape=circle,style=filled] 73
+node [shape=circle,style=filled] 74
+node [shape=circle,style=filled] 75
+node [shape=circle,style=filled] 76
+node [shape=circle,style=filled] 77
+node [shape=circle,style=filled] 78
+node [shape=circle,style=filled] 79
+node [shape=circle,style=filled] 80
+node [shape=circle,style=filled] 81
+node [shape=circle,style=filled] 82
+node [shape=circle,style=filled] 83
+node [shape=circle,style=filled] 84
+node [shape=circle,style=filled] 85
+node [shape=circle,style=filled] 86
+node [shape=circle,style=filled] 87
+node [shape=circle,style=filled] 88
+node [shape=circle,style=filled] 89
+node [shape=circle,style=filled] 90
+node [shape=circle,style=filled] 91
+node [shape=circle,style=filled] 92
+node [shape=circle,style=filled] 93
+node [shape=circle,style=filled] 94
+node [shape=circle,style=filled] 95
+node [shape=circle,style=filled] 96
+node [shape=circle,style=filled] 97
+node [shape=circle,style=filled] 98
+node [shape=circle,style=filled] 99
+node [shape=circle,style=filled] 100
+node [shape=circle,style=filled] 101
+node [shape=circle,style=filled] 102
+node [shape=circle,style=filled] 103
+node [shape=circle,style=filled] 104
+node [shape=circle,style=filled] 105
+node [shape=circle,style=filled] 106
+node [shape=circle,style=filled] 107
+node [shape=circle,style=filled] 108
+node [shape=circle,style=filled] 109
+node [shape=circle,style=filled] 110
+node [shape=circle,style=filled] 111
+node [shape=circle,style=filled] 112
+node [shape=circle,style=filled] 113
+node [shape=circle,style=filled] 114
+node [shape=circle,style=filled] 115
+node [shape=circle,style=filled] 116
+node [shape=circle,style=filled] 117
+node [shape=circle,style=filled] 118
+node [shape=circle,style=filled] 119
+node [shape=circle,style=filled] 120
+node [shape=circle,style=filled] 121
+node [shape=circle,style=filled] 122
+node [shape=circle,style=filled] 123
+node [shape=circle,style=filled] 124
+node [shape=circle,style=filled] 125
+node [shape=circle,style=filled] 126
+node [shape=circle,style=filled] 127
+node [shape=circle,style=filled] 128
+node [shape=circle,style=filled] 129
+node [shape=circle,style=filled] 130
+node [shape=circle,style=filled] 131
+node [shape=circle,style=filled] 132
+node [shape=circle,style=filled] 133
+node [shape=circle,style=filled] 134
+node [shape=circle,style=filled] 135
+node [shape=circle,style=filled] 136
+node [shape=circle,style=filled] 137
+node [shape=circle,style=filled] 138
+node [shape=circle,style=filled] 139
+node [shape=circle,style=filled] 140
+node [shape=circle,style=filled] 141
+node [shape=circle,style=filled] 142
+node [shape=circle,style=filled] 143
+node [shape=circle,style=filled] 144
+node [shape=circle,style=filled] 145
+node [shape=circle,style=filled] 146
+node [shape=circle,style=filled] 147
+node [shape=circle,style=filled] 148
+node [shape=circle,style=filled] 149
+node [shape=circle,style=filled] 150
+node [shape=circle,style=filled] 151
+node [shape=circle,style=filled] 152
+node [shape=circle,style=filled] 153
+node [shape=circle,style=filled] 154
+node [shape=circle,style=filled] 155
+node [shape=circle,style=filled] 156
+node [shape=circle,style=filled] 157
+node [shape=circle,style=filled] 158
+node [shape=circle,style=filled] 159
+node [shape=circle,style=filled] 160
+node [shape=circle,style=filled] 161
+node [shape=circle,style=filled] 162
+node [shape=circle,style=filled] 163
+node [shape=circle,style=filled] 164
+node [shape=circle,style=filled] 165
+node [shape=circle,style=filled] 166
+node [shape=circle,style=filled] 167
+node [shape=circle,style=filled] 168
+node [shape=circle,style=filled] 169
+node [shape=circle,style=filled] 170
+node [shape=doublecircle,style=filled] 171
+0 -> 28 [label="б "];
+0 -> 23 [label="д "];
+0 -> 15 [label="<л:э> "];
+0 -> 12 [label="о "];
+0 -> 9 [label="с "];
+0 -> 1 [label="т "];
+1 -> 2 [label="а "];
+2 -> 3 [label="б "];
+3 -> 4 [label="а "];
+4 -> 166 [label="<+pos:0> "];
+4 -> 5 [label="<+pos:^> "];
+5 -> 6 [label="<+N:0> "];
+6 -> 8 [label="<+deriv:р> "];
+6 -> 7 [label="<+deriv:а> "];
+6 -> 41 [label="<+deriv:й> "];
+6 -> 62 [label="<+deriv:һ> "];
+6 -> 59 [label="<+deriv:н> "];
+6 -> 57 [label="<+deriv:м> "];
+6 -> 56 [label="<+deriv:с> <+deriv:т>\n"];
+6 -> 53 [label="<+deriv:л> "];
+6 -> 50 [label="<+deriv:б> "];
+6 -> 48 [label="<+deriv:к> "];
+6 -> 44 [label="<+deriv:ч> "];
+6 -> 133 [label="<+num:л> "];
+6 -> 123 [label="<+num:0> "];
+7 -> 84 [label="<+instr.nom:х>\n"];
+8 -> 70 [label="<+vblz3:0> "];
+8 -> 43 [label="<+vblz6:ҕ> "];
+8 -> 68 [label="<+vblz7:н> "];
+9 -> 10 [label="у "];
+10 -> 11 [label="р "];
+11 -> 32 [label="у "];
+12 -> 13 [label="р "];
+13 -> 14 [label="о "];
+14 -> 37 [label="н "];
+15 -> 16 [label="<е:м> "];
+16 -> 17 [label="<к:п> "];
+17 -> 18 [label="<а:0> "];
+18 -> 19 [label="<р:0> "];
+19 -> 20 [label="<с:0> "];
+20 -> 21 [label="<т:0> "];
+21 -> 22 [label="<в:0> "];
+22 -> 37 [label="<о:0> "];
+23 -> 24 [label="и "];
+24 -> 25 [label="э "];
+25 -> 26 [label="<+pos:^> "];
+26 -> 27 [label="<+V:0> "];
+27 -> 90 [label="<+deriv:а> "];
+27 -> 81 [label="<+deriv:һ> "];
+27 -> 79 [label="<+deriv:н> "];
+27 -> 97 [label="<+tense:р> "];
+28 -> 29 [label="а "];
+29 -> 36 [label="а "];
+29 -> 71 [label="р "];
+29 -> 33 [label="й "];
+29 -> 30 [label="л "];
+30 -> 31 [label="<ы:н> "];
+31 -> 32 [label="<0:ы> "];
+32 -> 37 [label="к "];
+33 -> 34 [label="х "];
+34 -> 35 [label="а "];
+35 -> 37 [label="л "];
+36 -> 37 [label="й "];
+37 -> 166 [label="<+pos:0> "];
+37 -> 38 [label="<+pos:^> "];
+38 -> 39 [label="<+N:0> "];
+39 -> 67 [label="<+deriv:р> "];
+39 -> 65 [label="<+deriv:а> "];
+39 -> 62 [label="<+deriv:һ> "];
+39 -> 59 [label="<+deriv:н> "];
+39 -> 57 [label="<+deriv:м> "];
+39 -> 56 [label="<+deriv:с> <+deriv:т>\n"];
+39 -> 53 [label="<+deriv:л> "];
+39 -> 50 [label="<+deriv:б> "];
+39 -> 48 [label="<+deriv:к> "];
+39 -> 44 [label="<+deriv:ч> "];
+39 -> 133 [label="<+num:л> "];
+39 -> 86 [label="<+num:0> "];
+39 -> 40 [label="<+deriv:ы> "];
+40 -> 42 [label="<+vblz6:р> "];
+40 -> 41 [label="<0:й> "];
+41 -> 71 [label="<+vblz2:^> "];
+42 -> 43 [label="<0:ҕ> "];
+43 -> 54 [label="<0:а> "];
+44 -> 46 [label="<+dim1:н> "];
+44 -> 45 [label="<+dim3:а> "];
+45 -> 83 [label="<0:а> "];
+46 -> 47 [label="<0:ы> "];
+47 -> 84 [label="<0:к> "];
+48 -> 121 [label="<+dim2:а> "];
+48 -> 49 [label="<+dim4:а> "];
+49 -> 84 [label="<0:й> "];
+50 -> 51 [label="<+nmlz:н> "];
+51 -> 52 [label="<0:ы> "];
+52 -> 84 [label="<0:л> "];
+53 -> 55 [label="<+nmlz2:а> "];
+53 -> 61 [label="<+nmlz3:т> "];
+53 -> 54 [label="<+vblz:а> "];
+54 -> 70 [label="<0:а> "];
+55 -> 84 [label="<0:ҥ> "];
+56 -> 68 [label="<+vblz4:н> "];
+57 -> 58 [label="<+vblz5:с> "];
+58 -> 68 [label="<0:н> "];
+59 -> 60 [label="<0:ы> "];
+60 -> 61 [label="<+dim5:й> "];
+60 -> 70 [label="<+vblz3:р> "];
+61 -> 121 [label="<0:а> "];
+62 -> 63 [label="<+ag:н> "];
+63 -> 64 [label="<0:ы> "];
+64 -> 84 [label="<0:т> "];
+65 -> 84 [label="<+instr.nom:х>\n"];
+65 -> 70 [label="<+vblz3:р> "];
+65 -> 66 [label="<+vblz3:а> "];
+66 -> 70 [label="<0:р> "];
+67 -> 68 [label="<+vblz7:н> "];
+68 -> 69 [label="<0:ы> "];
+69 -> 70 [label="<0:й> "];
+70 -> 71 [label="<0:^> "];
+71 -> 72 [label="<+pos:^> "];
+72 -> 73 [label="<+V:0> "];
+73 -> 90 [label="<+deriv:а> "];
+73 -> 81 [label="<+deriv:һ> "];
+73 -> 79 [label="<+deriv:н> "];
+73 -> 74 [label="<+tense:а> "];
+74 -> 77 [label="<+pres:р> "];
+74 -> 75 [label="<+pres:л> "];
+75 -> 76 [label="<0:^> "];
+76 -> 112 [label="<+num:л> "];
+77 -> 114 [label="<+num:0> "];
+77 -> 78 [label="<0:^> "];
+78 -> 106 [label="<+num:г> "];
+78 -> 100 [label="<+num:б> "];
+79 -> 80 [label="<0:ы> "];
+80 -> 120 [label="<+dvb:н> "];
+81 -> 82 [label="<+dvb2:н> "];
+82 -> 83 [label="<0:ы> "];
+83 -> 84 [label="<0:н> "];
+84 -> 168 [label="<+num:0> "];
+84 -> 85 [label="<0:^> "];
+85 -> 133 [label="<+num:л> "];
+85 -> 86 [label="<+num:0> "];
+86 -> 87 [label="<+sg:0> "];
+87 -> 157 [label="<+case:л> "];
+87 -> 155 [label="<+case:н> "];
+87 -> 154 [label="<+case:г> "];
+87 -> 149 [label="<+case:т> "];
+87 -> 147 [label="<+case:ы> "];
+87 -> 88 [label="<+case:0> "];
+88 -> 89 [label="<+nom:0> "];
+89 -> 128 [label="<+poss:л> "];
+89 -> 144 [label="<+poss:г> "];
+89 -> 143 [label="<+poss:б> "];
+89 -> 142 [label="<+poss:а> "];
+89 -> 139 [label="<+poss:ы> "];
+90 -> 117 [label="<+ag.nom:а> "];
+90 -> 91 [label="<+attd:а> "];
+91 -> 92 [label="<0:х> "];
+92 -> 93 [label="<0:т> "];
+93 -> 94 [label="<0:а> "];
+94 -> 95 [label="<0:а> "];
+95 -> 96 [label="<0:^> "];
+96 -> 97 [label="<+tense:р> "];
+97 -> 98 [label="<+pres:0> "];
+98 -> 114 [label="<+num:0> "];
+98 -> 99 [label="<0:^> "];
+99 -> 112 [label="<+num:л> "];
+99 -> 106 [label="<+num:г> "];
+99 -> 100 [label="<+num:б> "];
+100 -> 103 [label="<+pl:н> "];
+100 -> 101 [label="<+sg:н> "];
+101 -> 102 [label="<0:ы> "];
+102 -> 105 [label="<+pers:н> "];
+103 -> 104 [label="<0:ы> "];
+104 -> 105 [label="<+pers:т> "];
+105 -> 171 [label="<+1:0> "];
+106 -> 109 [label="<+pl:н> "];
+106 -> 107 [label="<+sg:н> "];
+107 -> 108 [label="<0:ы> "];
+108 -> 111 [label="<+pers:н> "];
+109 -> 110 [label="<0:ы> "];
+110 -> 111 [label="<+pers:т> "];
+111 -> 171 [label="<+2:0> "];
+112 -> 113 [label="<+pl:а> "];
+113 -> 116 [label="<+pers:р> "];
+114 -> 115 [label="<+sg:0> "];
+115 -> 116 [label="<+pers:0> "];
+116 -> 171 [label="<+3:0> "];
+117 -> 118 [label="<0:ч> "];
+118 -> 119 [label="<0:ч> "];
+119 -> 120 [label="<0:н> "];
+120 -> 121 [label="<0:ы> "];
+121 -> 168 [label="<+num:0> "];
+121 -> 122 [label="<0:^> "];
+122 -> 133 [label="<+num:л> "];
+122 -> 123 [label="<+num:0> "];
+123 -> 124 [label="<+sg:0> "];
+124 -> 157 [label="<+case:л> "];
+124 -> 132 [label="<+case:н> "];
+124 -> 154 [label="<+case:г> "];
+124 -> 131 [label="<+case:т> "];
+124 -> 125 [label="<+case:0> "];
+125 -> 126 [label="<+nom:0> "];
+126 -> 128 [label="<+poss:л> "];
+126 -> 144 [label="<+poss:г> "];
+126 -> 143 [label="<+poss:б> "];
+126 -> 127 [label="<+poss:т> "];
+126 -> 141 [label="<+poss:ҥ> "];
+126 -> 140 [label="<+poss:м> "];
+127 -> 142 [label="<0:а> "];
+128 -> 129 [label="<+3pl:а> "];
+129 -> 130 [label="<0:р> "];
+130 -> 171 [label="<0:а> "];
+131 -> 148 [label="<+abl:т> "];
+131 -> 150 [label="<+cmpr:а> "];
+131 -> 171 [label="<+part:а> "];
+132 -> 156 [label="<0:ы> "];
+132 -> 161 [label="<+ins:а> "];
+133 -> 134 [label="<+pl:а> "];
+134 -> 135 [label="<0:р> "];
+135 -> 162 [label="<0:а> "];
+135 -> 136 [label="<0:^> "];
+135 -> 170 [label="<+case:0> "];
+136 -> 157 [label="<+case:л> "];
+136 -> 155 [label="<+case:н> "];
+136 -> 154 [label="<+case:г> "];
+136 -> 149 [label="<+case:т> "];
+136 -> 147 [label="<+case:ы> "];
+136 -> 137 [label="<+case:0> "];
+137 -> 138 [label="<+nom:0> "];
+138 -> 144 [label="<+poss:г> "];
+138 -> 143 [label="<+poss:б> "];
+138 -> 142 [label="<+poss:а> "];
+138 -> 139 [label="<+poss:ы> "];
+139 -> 141 [label="<0:ҥ> "];
+139 -> 140 [label="<0:м> "];
+140 -> 171 [label="<+1sg:0> "];
+141 -> 171 [label="<+2sg:0> "];
+142 -> 171 [label="<+3sg:0> "];
+143 -> 145 [label="<+1pl:н> "];
+144 -> 145 [label="<+2pl:н> "];
+145 -> 146 [label="<0:ы> "];
+146 -> 171 [label="<0:т> "];
+147 -> 148 [label="<+ins:н> "];
+148 -> 161 [label="<0:а> "];
+149 -> 150 [label="<+cmpr:а> "];
+149 -> 171 [label="<+part:а> "];
+149 -> 161 [label="<+abl:а> "];
+150 -> 151 [label="<0:а> "];
+151 -> 152 [label="<0:ҕ> "];
+152 -> 153 [label="<0:а> "];
+153 -> 171 [label="<0:р> "];
+154 -> 171 [label="<+dat:а> "];
+155 -> 156 [label="<0:ы> "];
+156 -> 171 [label="<+acc:0> <+ycheck:0>\n"];
+157 -> 158 [label="<+com:н> "];
+158 -> 159 [label="<0:ы> "];
+159 -> 160 [label="<0:н> "];
+160 -> 161 [label="<0:ы> "];
+161 -> 171 [label="<0:н> "];
+162 -> 163 [label="<+case:0> "];
+163 -> 164 [label="<+nom:0> "];
+164 -> 165 [label="<+poss:0> "];
+165 -> 171 [label="<+3pl:0> "];
+166 -> 167 [label="<+N:0> "];
+167 -> 168 [label="<+num:0> "];
+168 -> 169 [label="<+sg:0> "];
+169 -> 170 [label="<+case:0> "];
+170 -> 171 [label="<+nom:0> "];
+}

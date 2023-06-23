@@ -1,0 +1,17 @@
+### sakha.foma ###
+
+define Vowel [ а | а а | ы | ы ы | ы а | э | э э | и | и и | и э | ү | ү ү | ү ө | ө | ө ө | у | у у | у о | о | о о ];
+
+
+define CaseAcc ["+case":ы "+acc":0] -> ["+case":0 "+acc":н 0:ы К:0] || Vowel _ ;
+
+define DeleteLastMorphBoundary "^" -> 0 || _ .#. ;
+
+read lexc sakha_min.lexc
+define Lexicon;
+
+define Grammar Lexicon .o.
+#CaseAcc .o.
+DeleteLastMorphBoundary;
+
+regex Grammar;

@@ -1,0 +1,81 @@
+digraph A {
+rankdir = LR;
+node [shape=circle,style=filled] 0
+node [shape=circle,style=filled] 1
+node [shape=circle,style=filled] 2
+node [shape=circle,style=filled] 3
+node [shape=circle,style=filled] 4
+node [shape=circle,style=filled] 5
+node [shape=circle,style=filled] 6
+node [shape=circle,style=filled] 7
+node [shape=circle,style=filled] 8
+node [shape=circle,style=filled] 9
+node [shape=circle,style=filled] 10
+node [shape=circle,style=filled] 11
+node [shape=circle,style=filled] 12
+node [shape=circle,style=filled] 13
+node [shape=circle,style=filled] 14
+node [shape=circle,style=filled] 15
+node [shape=circle,style=filled] 16
+node [shape=circle,style=filled] 17
+node [shape=circle,style=filled] 18
+node [shape=circle,style=filled] 19
+node [shape=circle,style=filled] 20
+node [shape=circle,style=filled] 21
+node [shape=circle,style=filled] 22
+node [shape=circle,style=filled] 23
+node [shape=circle,style=filled] 24
+node [shape=circle,style=filled] 25
+node [shape=circle,style=filled] 26
+node [shape=circle,style=filled] 27
+node [shape=circle,style=filled] 28
+node [shape=circle,style=filled] 29
+node [shape=circle,style=filled] 30
+node [shape=circle,style=filled] 31
+node [shape=doublecircle,style=filled] 32
+0 -> 10 [label="b "];
+0 -> 1 [label="t "];
+1 -> 2 [label="a "];
+2 -> 3 [label="b "];
+3 -> 4 [label="a "];
+4 -> 27 [label="<+pos:0> "];
+4 -> 5 [label="<+pos:^> "];
+5 -> 6 [label="<+N:0> "];
+6 -> 18 [label="<+num:l> "];
+6 -> 7 [label="<+num:0> "];
+7 -> 8 [label="<+sg:0> "];
+8 -> 9 [label="<+case:n> "];
+8 -> 24 [label="<+case:g> "];
+8 -> 23 [label="<+case:t> "];
+9 -> 22 [label="<0:y> "];
+9 -> 26 [label="<+ins:a> "];
+10 -> 11 [label="a "];
+11 -> 12 [label="l "];
+12 -> 13 [label="y "];
+13 -> 14 [label="k "];
+14 -> 27 [label="<+pos:0> "];
+14 -> 15 [label="<+pos:^> "];
+15 -> 16 [label="<+N:0> "];
+16 -> 18 [label="<+num:l> "];
+16 -> 17 [label="<+num:0> "];
+17 -> 21 [label="<+sg:0> "];
+18 -> 19 [label="<+pl:a> "];
+19 -> 20 [label="<0:r> "];
+20 -> 31 [label="<+case:0> "];
+20 -> 21 [label="<0:^> "];
+21 -> 25 [label="<+case:n> "];
+21 -> 24 [label="<+case:g> "];
+21 -> 23 [label="<+case:t> "];
+21 -> 22 [label="<+case:y> "];
+22 -> 32 [label="<+ycheck:0> <+acc:0>\n"];
+23 -> 26 [label="<+abl:a> "];
+23 -> 32 [label="<+part:a> "];
+24 -> 32 [label="<+dat:a> "];
+25 -> 26 [label="<+ins:a> "];
+26 -> 32 [label="<0:n> "];
+27 -> 28 [label="<+N:0> "];
+28 -> 29 [label="<+num:0> "];
+29 -> 30 [label="<+sg:0> "];
+30 -> 31 [label="<+case:0> "];
+31 -> 32 [label="<+nom:0> "];
+}

@@ -1,0 +1,73 @@
+use,category,fullname,name,structural_desc,structural_change,is_optional,replacement_op,left_context,right_context,description,comment,source,examples
+,affix_specific,,VerbalizingYJ,й,ый,,,"Consonant ""^""","""^""",,,У:219,
+,affix_specific,,VerbalizingR,""".drv.vrblz3.""  [ыр | ар]",р,,,"Vowel ""^"" ",,"allomorphs with vowels (except aar, see deletion below) appear only after consonant",,У:219-220,
+,affix_specific,,VerbalizingRaar,"Vowel ""^"" "".drv.vrblz3.""","""^""",,@->,,,,,,
+,affix_specific,,VerbalizingRaarDelete,""".drv.vrblz3.""",0,,,,,,,,
+,affix_specific,,VerbalizingMSYJ,мсый,ымсый,,,"Consonant ""^""","""^""",,,У:221,
+,affix_specific,,VerbalizingRGHAA,рҕаа,ырҕаа,,,"Consonant ""^""","""^""",,,У:221,
+,affix_specific,,PresTenseARafterVowel,ар,ыыр,,,"Vowel ""^"" "".tns.pres."" ",,,,,
+,affix_specific,,PresTenseYYR,"Vowel ""^"" "".tns.pres."" ","""^""",,@->,,,,,,
+,affix_specific,,PresTenseAR1or2,""".tns.pres."" ар",а,,,"""^""","""^"" ["".1sg."" | "".1pl."" | "".2sg."" | "".2pl."" ]",,,У:228,
+,affix_specific,,PresTenseYYR1or2,""".tns.pres."" ыыр",ыы,,,"""^""","""^"" ["".1sg."" | "".1pl."" | "".2sg."" | "".2pl."" ]",,inferred,,
+,affix_specific,,PresTenseAR3PL,""".tns.pres."" ар",ал,,,"""^""","""^"" "".3pl.""",,,У:228,
+,affix_specific,,PresTenseYYR3PL,""".tns.pres."" ыыр",ыыл,,,"""^""","""^"" "".3pl.""",,inferred,,
+,affix_specific,,DeleteTensePres,""".tns.pres.""",0,,,,,,,,
+,affix_specific,,FutTenseContrNeg,"["".tns.fut.neg."" | "".tns.fut.contr.""] ыах ",ыа,,,"""^""","""^"" ["".1sg."" | "".2sg."" | "".3sg."" ]",,,,
+,affix_specific,,FutTenseContrPos,""".tns.fut."" ыах",ыа,1,,"""^""","""^"" ["".1sg."" | "".2sg."" | "".3sg."" ]",,,,
+,affix_specific,,FutTenseContr3SG,"ыа ""^"" "".3sg."" а",ыа,,,"""^""",,,,,
+,affix_specific,,DeleteFut,""".tns.fut."" | "".tns.fut.neg."" | "".tns.fut.contr.""",0,,,,,,,,
+,affix_specific,,DeletePers,""".1sg."" | "".1pl."" | "".2sg."" | "".2pl."" | "".3sg."" | "".3pl.""",0,,,,,,,,
+,affix_specific,,CVBant,""".cvb.ant."" н",ан,,,"Consonant ""^"" ",,,,,
+,affix_specific,,CVBantDelete,""".cvb.ant.""",0,,,,,,,,
+,affix_specific,,CVBSim,"Vowel ""^"" "".cvb.sim."" а",ыы,,@->,,,,,У:245,
+,affix_specific,,CVBSimDelete,""".cvb.sim.""",0,,,,,,,,
+,affix_specific,,CVBPurp,аары,ры,,,"Vowel ""^"" "".cvb.purp.""",,,,У:249,
+,affix_specific,,CVBPurpDelete,""".cvb.purp.""",0,,,,,,,,
+,affix_specific,,CaseAcc,ы,ны,,,"Vowel ""^""","""^""",,,глоссы_файл,
+,affix_specific,,CaseAbl,тан,ттан,,,"Vowel ""^""","""^""",,,глоссы_файл,
+,affix_specific,,CaseIns,нан,ынан,,,"Consonant ""^""","""^""",,,глоссы_файл,
+,affix_specific,,PossOneSG,м,ым,,,"Consonant ""^""","""^""",,,глоссы_файл,
+,affix_specific,,PossTwoSG,ҥ,ыҥ,,,"Consonant ""^""","""^""",,,глоссы_файл,
+,affix_specific,,PossThreeSG,""".poss3sg.""",т,,,"Vowel ""^""",,,,глоссы_файл,
+,affix_specific,,PossThreeSGDelete,""".poss3sg.""",0,,,,,,,глоссы_файл,
+,affix_specific,,PossThreePL,"""^"" лар ""^"" лар","""^"" лар",,,,,,,глоссы_файл,
+,consonants,,VelarPlosiveLoss,ҥ к,ҥ,,,,"""^""",,сыыҥк + таа = сыыҥтаа,У:216,
+,,,,длинный,краткий,1,,,"""^""",,"ыарыы + лаа = ыарылаа [У:216:12] (но в сахатыла с ыы)
+но өлүү + лаа = өлүүлээ [У:215:2], сытыылаа, чулуулаа [У:217]",,
+,harmony,harmonyNonLabFront,NonLabFront,"а, ы, ыа","э, и, иэ",,,"FrontVNonLab Consonant* ""^"" [? - ""^""]*",,,,самоучитель:16,
+,harmony,harmonyNonLabBack,NonLabBack,"э, и, иэ","а, ы, ыа",,,"BackVNonLab Consonant* ""^"" [? - ""^""]*",,,,,
+,harmony,harmonyLabFrontHighFromBack,LabFrontHighFromBack,"а, ы, ыа","э, ү, үө",,,"FrontHighVLab Consonant* ""^"" [? - ""^""]*",,,,самоучитель:16,
+,harmony,,LabFrontHighFromFront,"э, и, иэ","э, ү, үө",,,"FrontHighVLab Consonant* ""^"" [? - ""^""]*",,,,,
+,harmony,harmonyLabFrontLowFromBack,LabFrontLowFromBack,"а, ы, ыа","ө, ү, үө",,,"FrontLowVLab Consonant* ""^"" [? - ""^""]*",,,,самоучитель:16,
+,harmony,,LabFrontLowFromFront,"э, и, иэ","ө, ү, үө",,,"FrontLowVLab Consonant* ""^"" [? - ""^""]*",,,,,
+,harmony,harmonyLabBackHighFromBack,LabBackHighFromBack,"а, ы, ыа","а, у, уо",,,"BackHighVLab Consonant* ""^"" [? - ""^""]*",,,,самоучитель:16,
+,harmony,,LabBackHighFromFront,"э, и, иэ","а, у, уо",,,"BackHighVLab Consonant* ""^"" [? - ""^""]*",,,,,
+,harmony,harmonyLabBackLowFromBack,LabBackLowFromBack,"а, ы, ыа","о, у, уо",,,"BackLowVLab Consonant* ""^"" [? - ""^""]*",,,,самоучитель:16,
+,harmony,harmonyLabBackLowFromFront,LabBackLowFromFront,"э, и, иэ","о, у, уо",,,"BackLowVLab Consonant* ""^"" [? - ""^""]*",,,,,
+,consonants,,Voicing,"к, п, с, х, т","г, б, һ, ҕ, д",,,,"""^"" Vowel",,,самоучитель:18,
+,consonants,,VoicingPostCons,"к, п, с, х, т, ч","г, б, һ, ҕ, д, дь",,,"VoicedCons ""^""",,,сделаны собственные добавления,,
+,consonants,,Devoicing,"г, б, һ, ҕ","к, п, с, х",,,"[к | п | с | х] ""^""",,,,,
+,consonants,,NasalCH,ч,нь,,,"[ҥ | м | н] ""^""",,,,У:81,"айанньыт, илимньит, тииҥньит"
+,consonants,,NasalH,һ,нь,,,"[ҥ | м | н] ""^""",,,,,
+,consonants,,VoicedH,һ,дь,,,"[й | р | л] ""^""",,,,,
+,consonants,,VoicedCH,ч,дь,,,й,,,,У:81,оһуохайдьыт
+,consonants,,NasalB,б,м,,,"ҥ ""^""",,,,У:81,тоҥмут
+,consonants,,NasalBAssimN,"н ""^"" б","м ""^"" м",,,,,,,самоучитель:19,аан+быт
+,consonants,,DevoicedBAssimN,"т ""^"" б","п ""^"" п",,,,,,,У:84,
+,consonants,,NasalL,л,н,,,"[ҥ | м | н] ""^""",,,,У:81,"кыымнар, тэҥнээ, хатыҥнаах"
+,consonants,,DevoicedGHColloquial,ҕ,х,1,,й,,,,У:82,байхал
+,consonants,,PlosiveGH,ҕ,г,,,"[ы | у | и | ү | й | л | р] ""^""",,,,самоучитель:22,
+,consonants,,NasalGHAssimN,"н ""^"" ҕ","ҥ ""^"" ҥ",,,,,,,самоучитель:21,
+,consonants,,NasalGH,ҕ,ҥ,,,"н ""^""",,,,самоучитель:21,
+,consonants,,PlosiveGHAssimT,"т ""^"" ҕ","к ""^"" к",,,,,,,самоучитель: 19,"ат+ҕа, ыт+ҕа"
+,consonants,,PlosiveHAssimT,"т ""^"" һ","т ""^"" ч",,,,,,,,
+,consonants,,DevoicedGH,ҕ,х,,,"х ""^""",,,,,
+,consonants,,DevoicedB,б,п,,,"VoicelessConsSome ""^""",,,,У:82,"бул(т)пут, үҥ(к)пүт"
+,consonants,,DevoicedL,л,т,,,"VoicelessConsSome ""^""",,,"добавлено ""т""",У:82,сыыҥ(к)таа
+,consonants,,PlosiveL,л,д,,,"[й | р] ""^""",,,,,
+,consonants,,PlosiveH,һ,дь,,,"[й | р | л] ""^""",,,,,
+,consonants,,AssimilatedGHdevoiced,ҕ,к,,,"VoicelessConsSome ""^""",,,к п ??,У:82,эм(п)кэ
+,consonants,,DeleteStemPart,"т, п, к","0, 0, 0",,,"л ""^"", м ""^"", ҥ ""^"", ҥ ""^""","п, к, п, т",,,У:82,"бул(т)пут, үҥ(к)пүт, сыыҥ(к)таа, эм(п)кэ"
+,consonants,,AssimilationCHIncosistent,"сч, тч","чч, чч",1,,,,,,У:84,
+,consonants,,SimplifyTCHInconsistent,тч,ч,1,,,,,ср. от+һыт = отчут и булт + һыт = булчут,,
+,,,,,,,,,,,,У:85+,

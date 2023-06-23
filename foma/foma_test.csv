@@ -1,0 +1,15 @@
+pos_stem,stem,query_type,query,expected,actual,is_match
+N,балык,up,балык^сыт,балык+pos+N+deriv+ag+num+sg+case+nom,,
+N,отон,up,отон^ньут,отон+pos+N+deriv+ag+num+sg+case+nom,,
+N,ырыа,up,ырыа^һыт,ырыа+pos+N+deriv+ag+num+sg+case+nom,,
+N,от,up,от^чут,от+pos+N+deriv+ag+num+sg+case+nom,,
+N,сонор,up,сонор^дьут,сонор+pos+N+deriv+ag+num+sg+case+nom,,
+N,кыыл,up,кыыл^дьыт,кыыл+pos+N+deriv+ag+num+sg+case+nom,,
+N,таба,up,таба^лара,"таба+pos+N+num+pl+case+nom+poss+3pl
+таба+pos+N+num+sg+case+nom+poss+3pl",,
+N,халва,up,халва^лара,"GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+GUESS+халва+pos+N+num+sg+case+nom+poss+3pl",,
+N,таба,up,таба^ны,таба+pos+N+num+sg+case+acc,,
+N,халва,up,халва^ны,GUESS+халва+pos+N+num+sg+case+acc,,
+N,балык,down,балык+pos+N+num+sg+case+acc,балыг^ы,,
+V,диэ,down,GUESS+диэ+pos+V+tense+pres+num+sg+pers+3,д^иир,,

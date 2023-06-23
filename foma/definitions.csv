@@ -1,0 +1,11 @@
+union,values,
+BackVNonLab,а аа ы ыы ыа,
+FrontVNonLab,э ээ и ии иэ,
+FrontHighVLab,ү үү үө,
+FrontLowVLab,ө өө,
+BackHighVLab,у уу уо,
+BackLowVLab,о оо,
+Vowel,а аа ы ыы ыа э ээ и ии иэ ү үү үө ө өө у уу уо о оо,
+Consonant,б в г ҕ д дь ж з й к л м н ҥ нь п р с һ т ф х ц ч ш щ ъ ь,
+VoicelessConsSome,к п с т ф х ц ч,ц ч?
+VoicedCons,б в г ҕ д дь ж з й р,

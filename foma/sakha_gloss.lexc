@@ -1,0 +1,62 @@
+!!!sakha_gloss.lexc!!!
+
+Multichar_Symbols +pos +N +deriv +ag +deriv +dim1 +deriv +dim2 +deriv +dim3 +deriv +dim4 +deriv +dim5 +num +sg +num +pl +case +nom +case +acc +case +part +case +dat +case +abl +case +ins +case +com +case +cmpr
+
+
+
+LEXICON Root
+
+N ;
+
+LEXICON N
+олень:таба Nstem;
+рыба:балык Nstem;
+лекарство:эмп Nstem;
+океан:байхал Nstem;
+письмо:сурук Nstem;
+богатство:баай Nstem;
+кровать:орон Nstem;
+
+
+LEXICON Nstem
+
++pos+N:^ Ninfl;
++pos+N:^ NsourceDerivation;
+
+
+LEXICON NAdjStem
+
+Ninfl ;
+
+
+LEXICON NsourceDerivation
+
+Naffix ;
+
+
+LEXICON Naffix
+
++deriv+ag:һыт^ Ninfl;
++deriv+dim1:чык^ ;
++deriv+dim2:ка^ Ninfl;
++deriv+dim3:чаан^ Ninfl;
++deriv+dim4:кай^ Ninfl;
++deriv+dim5:ыйа^ Ninfl;
+
+
+LEXICON Ninfl
+
++num+sg:0 Ncase;
++num+pl:лар^ Ncase;
+
+
+LEXICON Ncase
+
++case+nom:0 #;
++case+acc:ы^ #;
++case+part:та^ #;
++case+dat:га^ #;
++case+abl:тан^ #;
++case+ins:нан^ #;
++case+com:лыын^ #;
++case+cmpr:тааҕар^ #;

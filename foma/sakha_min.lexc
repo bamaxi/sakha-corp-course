@@ -1,0 +1,32 @@
+!!!sakha.lexc!!!
+
+Multichar_Symbols +pos +N +num +sg +pl +case +nom +acc +part +dat +abl +ins +com +cmpr  +ycheck case.acc. @P.CaseAcc.ON@
+
+LEXICON Root
+
+N ;
+
+LEXICON N
+!!!GUESS+^NOUNGUESS:0^NOUNGUESS Nstem;
+taba Nstem;
+balyk Nstem;
+
+LEXICON Nstem
+
++pos+N:^ Ninfl;
+
+LEXICON Ninfl
+
++num+sg:0 Ncase;
++num+pl:lar^ Ncase;
+
+LEXICON Ncase
+
++case+nom:0 NPossNom;
+!@P.CaseAcc.ON@+case+acc:@P.CaseAcc.ON@y^ #;
++case+acc:case.acc.y^ #;
++case+part:ta^ #;
++case+dat:ga^ #;
++case+abl:tan^ #;
++case+ins:nan^ #;
++case+ycheck:y^ #;

@@ -1,0 +1,41 @@
+!!!english.lexc!!!
+
+Multichar_Symbols +N +V +PastPart +Past +PresPart +3P +Sg +Pl ^NOUNGUESS +GUESS
+
+LEXICON Root
+
+Noun ;
+Verb ;
+
+LEXICON Noun
+
++GUESS+^NOUNGUESS:^NOUNGUESS Ninf;
+cat   Ninf;
+city  Ninf;
+fox   Ninf;
+panic Ninf;
+try   Ninf;
+watch Ninf;
+
+LEXICON Verb
+
+beg   Vinf;
+fox   Vinf;
+make  Vinf;
+panic Vinf;
+try   Vinf;
+watch Vinf;
+
+LEXICON Ninf
+
++N+Sg:0   #;
++N+Pl:^s  #;
+
+LEXICON Vinf
+
++V:0             #;
++V+3P+Sg:^s      #;
++V+Past:^ed #;
++V+Past:^pst #;
++V+PastPart:^ed  #;
++V+PresPart:^ing #;

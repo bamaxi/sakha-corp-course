@@ -1,0 +1,270 @@
+!!!sakha.lexc!!!
+
+Multichar_Symbols GUESS+ ^TESTGUESS ^VERBGUESS +pos +N +deriv +ag +dim1 +dim2 +dim3 +dim4 +dim5 +nmlz +instr.nom +nmlz2 +nmlz3 +dvb +dvb2 +ag.nom +num +sg +pl +case +nom +acc +part +dat +abl +ins +com +cmpr +poss +1sg +2sg +3sg +1pl +2pl +3pl +vblz +vblz4 +vblz2 +vblz3 .drv.vblz3. +vblz5 +vblz6 +vblz7 +V +tense +pres .tns.pres. +polarity +neg +impf +pst.narr +pst.res1 +fut .tns.fut. .tns.fut.neg. +ptcp.pres +cvb.ant +attd +pers +1 .1sg. +2 .2sg. +3 .3sg. .1pl. .2pl. .3pl.
+
+
+
+LEXICON Root
+
+!N ;
+!V ;
+TEST ;
+
+
+LEXICON TEST
+
+ба TESTstem;
+бабай TESTstem;
+GUESS+^TESTGUESS:0^TESTGUESS TESTstem;
+
+LEXICON TESTstem
++deriv:^ка #;
++deriv2:^га #;
++deriv:^бай TESTstem;
+
+
+LEXICON N
+GUESS+^NOUNGUESS:0^NOUNGUESS Nstem;
+таба Nstem;
+балык Nstem;
+лекарство:эмп Nstem;
+байхал Nstem;
+сурук Nstem;
+баай Nstem;
+орон Nstem;
+
+LEXICON V
+!GUESS+^VERBGUESS:0^VERBGUESS Vstem;
+бар Vstem;
+
+
+LEXICON Nstem
+
++pos+N:^ Ninfl;
++pos+N:^ NsourceDerivation;
+
+
+LEXICON NAdjStem
+
+Ninfl ;
+
+
+LEXICON NsourceDerivation
+
+NNaffix ;
+Vaffix ;
+NVaffix ;
+NominalVaffix ;
+NAdjAffix ;
+
+
+LEXICON NNaffix
+
++deriv+ag:һыт^ Ninfl;
++deriv+dim1:чык^ Ninfl;
++deriv+dim2:ка^ Ninfl;
++deriv+dim3:чаан^ Ninfl;
++deriv+dim4:кай^ Ninfl;
++deriv+dim5:ыйа^ Ninfl;
++deriv+nmlz:был^ Ninfl;
++deriv+instr.nom:ах^ Ninfl;
++deriv+nmlz2:лаҥ^ Ninfl;
++deriv+nmlz3:лта^ Ninfl;
+
+
+LEXICON VNaffix
+
++deriv+dvb:ыы^ Ninfl;
++deriv+dvb2:һын^ Ninfl;
++deriv+ag.nom:ааччы^ Ninfl;
+
+
+LEXICON Ninfl
+
++num+sg:0 Ncase;
++num+pl:лар^ Ncase;
+
+
+LEXICON Ncase
+
++case+nom:0 NPossNom;
++case+acc:ы^ #;
++case+part:та^ #;
++case+dat:га^ #;
++case+abl:тан^ #;
++case+ins:нан^ #;
++case+com:лыын^ #;
++case+cmpr:тааҕар^ #;
+
+
+LEXICON NPossNom
+
+0 #;
++poss+1sg:м^ #;
++poss+2sg:ҥ^ #;
++poss+3sg:а^ #;
++poss+1pl:быт^ #;
++poss+2pl:гыт^ #;
++poss+3pl:лара^ #;
+
+
+LEXICON Vaffix
+
++deriv+vblz:лаа Vstem;
++deriv+vblz4:тый Vstem;
++deriv+vblz4:сый Vstem;
+
+
+LEXICON NVaffix
+
++deriv+vblz2:й Vstem;
+
+
+LEXICON AdjVaffix
+
++deriv+vblz2:й Vstem;
+
+
+LEXICON NominalVaffix
+
++deriv+vblz2:й Vstem;
++deriv+vblz3:.drv.vblz3.ыр Vstem;
++deriv+vblz3:.drv.vblz3.ар Vstem;
++deriv+vblz3:.drv.vblz3.аар Vstem;
++deriv+vblz4:тый Vstem;
++deriv+vblz4:сый Vstem;
++deriv+vblz5:мсый Vstem;
++deriv+vblz6:рҕаа Vstem;
++deriv+vblz7:рый Vstem;
+
+
+LEXICON Vstem
+
++pos+V:^ Vinfl;
+!+pos+V:^ VsourceDerivation;
+
+
+LEXICON Vinfl
+
+Vindic ;
+
+
+LEXICON Vindic
+
+VfiniteTenses ;
+Vptcp ;
+Vcvb ;
+
+
+LEXICON VfiniteTenses
+
+Vpres ;
+Vimpf ;
+Vfut ;
+VpstNarr ;
+VpstRes ;
+
+
+LEXICON Vptcp
+
+VptcpPres ;
+
+
+LEXICON Vcvb
+
+VcvbAnt ;
+
+
+LEXICON Vpres
+
++tense+pres:.tns.pres.ар^ VpredNumPers;
++tense+pres+polarity+neg:бат^ VpredNumPers;
+
+
+LEXICON Vimpf
+
++tense+impf:ар^ VpossNumPers;
++tense+impf+polarity+neg:бат^ VpossNumPers;
+
+
+LEXICON VpstNarr
+
++tense+pst.narr:быт^ VpossNumPers;
++tense+pst.narr+polarity+neg:батах^ VpossNumPers;
+
+
+LEXICON VpstRes
+
++tense+pst.res1:быт^ VpredNumPers;
++tense+pst.res1+polarity+neg:батах^ VpredNumPers;
+
+
+LEXICON Vfut
+
++tense+fut:.tns.fut.ыах^ VpossNumPers;
++tense+fut+polarity+neg:.tns.fut.neg.ыах^ VpossNumPers;
+
+
+LEXICON VptcpPres
+
++ptcp.pres:ар^ Ninfl;
++ptcp.pres+polarity+neg:бат^ Ninfl;
+
+
+LEXICON VcvbAnt
+
++cvb.ant:ан^ #;
++cvb.ant:ан^ Vinfl;
+
+
+LEXICON VsourceDerivation
+
+VVaffix ;
+VNaffix ;
+
+
+LEXICON VVaffix
+
++deriv+attd:аахтаа^ Vinfl;
+
+
+LEXICON VpossNumPers
+
++num+sg+pers+1:.1sg.м^ #;
++num+sg+pers+2:.2sg.ҥ^ #;
++num+sg+pers+3:.3sg.а^ #;
++num+pl+pers+1:.1pl.быт^ #;
++num+pl+pers+2:.2pl.ҕыт^ #;
++num+pl+pers+3:.3pl.лара^ #;
+
+
+LEXICON VpredNumPers
+
++num+sg+pers+1:.1sg.бын^ #;
++num+sg+pers+2:.2sg.ҕын^ #;
++num+sg+pers+3:.3sg.0 #;
++num+pl+pers+1:.1pl.быт^ #;
++num+pl+pers+2:.2pl.ҕыт^ #;
++num+pl+pers+3:.3pl.лар^ #;
+
+
+LEXICON NumStem
+
+NumInfl ;
+NumSourceDerivation ;
+
+
+LEXICON NumSourceDerivation
+
+Vaffix ;
+
+
+LEXICON PronStem
+
+PronInfl ;
+PronSourceDerivation ;
+
+
+LEXICON PronSourceDerivation
+
+Vaffix ;

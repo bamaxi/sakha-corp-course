@@ -1,0 +1,156 @@
+###sakha.foma###
+
+define BackVNonLab [ а  | а а  | ы  | ы ы  | ы а  ];
+define FrontVNonLab [ э  | э э  | и  | и и  | и э  ];
+define FrontHighVLab [ ү  | ү ү  | ү ө  ];
+define FrontLowVLab [ ө  | ө ө  ];
+define BackHighVLab [ у  | у у  | у о  ];
+define BackLowVLab [ о  | о о  ];
+define Vowel [ а  | а а  | ы  | ы ы  | ы а  | э  | э э  | и  | и и  | и э  | ү  | ү ү  | ү ө  | ө  | ө ө  | у  | у у  | у о  | о  | о о  ];
+define Consonant [ б  | в  | г  | ҕ  | д  | д ь  | ж  | з  | й  | к  | л  | м  | н  | ҥ  | н ь  | п  | р  | с  | һ  | т  | ф  | х  | ц  | ч  | ш  | щ  | ъ  | ь  ];
+define VoicelessConsSome [ к  | п  | с  | т  | ф  | х  | ц  | ч  ];
+define VoicedCons [ б  | в  | г  | ҕ  | д  | д ь  | ж  | з  | й  | р  ];
+
+define EndsCons 0 -> @P.EndsCons.ON@ || Consonant _ .#. ;
+
+define CaseAcc ы  -> н ы  || Vowel "^" _ "^" ;
+
+define CaseAbl т а н  -> т т а н  || Vowel "^" _ "^" ;
+
+define CaseIns н а н  -> ы н а н  || Consonant "^" _ "^" ;
+
+define PossOneSG м  -> ы м  || Consonant "^" _ "^" ;
+
+define PossTwoSG ҥ  -> ы ҥ  || Consonant "^" _ "^" ;
+
+define PossThreeSG а  -> т а  || Vowel "^" _ "^" ;
+
+define PossThreePL "^"  л а р  "^"  л а р а  -> "^"  л а р а  ;
+
+define NonLabFront а  -> э  , ы  -> и  , ы а  -> и э  || FrontVNonLab Consonant* "^" [? - "^"]* _  ;
+
+define NonLabBack э  -> а  , и  -> ы  , и э  -> ы а  || BackVNonLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontHighFromBack а  -> э  , ы  -> ү  , ы а  -> ү ө  || FrontHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontHighFromFront э  -> э  , и  -> ү  , и э  -> ү ө  || FrontHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontLowFromBack а  -> ө  , ы  -> ү  , ы а  -> ү ө  || FrontLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabFrontLowFromFront э  -> ө  , и  -> ү  , и э  -> ү ө  || FrontLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackHighFromBack а  -> а  , ы  -> у  , ы а  -> у о  || BackHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackHighFromFront э  -> а  , и  -> у  , и э  -> у о  || BackHighVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackLowFromBack а  -> о  , ы  -> у  , ы а  -> у о  || BackLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define LabBackLowFromFront э  -> о  , и  -> у  , и э  -> у о  || BackLowVLab Consonant* "^" [? - "^"]* _  ;
+
+define Voicing к  -> г  , п  -> б  , с  -> һ  , х  -> ҕ  , т  -> д  ||  _ "^" Vowel ;
+
+define VoicingPostCons к  -> г  , п  -> б  , с  -> һ  , х  -> ҕ  , т  -> д  , ч  -> д ь  || VoicedCons "^" _  ;
+
+define Devoicing г  -> к  , б  -> п  , һ  -> с  , ҕ  -> х  || [к | п | с | х] "^" _  ;
+
+define NasalCH ч  -> н ь  || [ҥ | м | н] "^" _  ;
+
+define VoicedCH ч  -> д ь  || й _  ;
+
+define NasalB б  -> м  || ҥ "^" _  ;
+
+define NasalBAssimN н  "^"  б  -> м  "^"  м  ;
+
+define DevoicedBAssimN т  "^"  б  -> п  "^"  п  ;
+
+define NasalL л  -> н  || [ҥ | м | н] "^" _  ;
+
+define DevoicedGHColloquial ҕ  -> х  || й _  ;
+
+define PlosiveGH ҕ  -> г  || [ы | у | и | ү | й | л | р] "^" _  ;
+
+define NasalGH ҕ  -> ҥ  || н "^" _  ;
+
+define NasalGHAssimN н  "^"  ҕ  -> ҥ  "^"  ҥ  ;
+
+define PlosiveGHAssimT т  "^"  ҕ  -> к  "^"  к  ;
+
+define DevoicedGH ҕ  -> х  || х "^" _  ;
+
+define DevoicedB б  -> п  || VoicelessConsSome "^" _  ;
+
+define DevoicedL л  -> т  || VoicelessConsSome "^" _  ;
+
+define PlosiveL л  -> д  || [й | р] "^" _  ;
+
+define AssimilatedGHdevoiced ҕ  -> к  || VoicelessConsSome "^" _  ;
+
+define DeleteStemPart т  -> 0  , п  -> 0  , к  -> 0  || л  "^"  _ п  , м  "^"  _ к  , ҥ  "^"  _ п  , ҥ  "^"  _ т  ;
+
+define AssimilationCHIncosistent с ч  -> ч ч  , т ч  -> ч ч  ;
+
+define Cleanup "^" -> "^";
+
+
+
+define OrthWord [Consonant* Vowel Consonant*]+;
+read lexc sakha.lexc
+substitute defined OrthWord	for "^NOUNGUESS"
+define Lexicon;
+
+
+define Harmony NonLabFront .o.
+NonLabBack .o.
+LabFrontHighFromBack .o.
+LabFrontHighFromFront .o.
+LabFrontLowFromBack .o.
+LabFrontLowFromFront .o.
+LabBackHighFromBack .o.
+LabBackHighFromFront .o.
+LabBackLowFromBack .o.
+LabBackLowFromFront;
+
+
+define Grammar Lexicon .o.
+CaseAcc .o.
+CaseAbl .o.
+CaseIns .o.
+PossOneSG .o.
+PossTwoSG .o.
+PossThreeSG .o.
+PossThreePL .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Harmony .o.
+Voicing .o.
+VoicingPostCons .o.
+Devoicing .o.
+NasalCH .o.
+VoicedCH .o.
+NasalB .o.
+NasalBAssimN .o.
+DevoicedBAssimN .o.
+NasalL .o.
+DevoicedGHColloquial .o.
+PlosiveGH .o.
+NasalGH .o.
+NasalGHAssimN .o.
+PlosiveGHAssimT .o.
+DevoicedGH .o.
+DevoicedB .o.
+DevoicedL .o.
+PlosiveL .o.
+AssimilatedGHdevoiced .o.
+DeleteStemPart .o.
+AssimilationCHIncosistent .o.
+Cleanup;
+
+#regex Grammar;
+regex [~$["GUESS+"] .o. Grammar] .p. [$["GUESS+"] .o. Grammar];

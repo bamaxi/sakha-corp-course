@@ -1,0 +1,616 @@
+INFO:root:starting foma...
+INFO:root:started
+INFO:root:activated sakha source
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply up таба^лара
+???
+foma[1]: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply up халва^лара
+
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:starting foma...
+INFO:root:started
+INFO:root:activated sakha source
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply up таба^лара
+таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+foma[1]: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply up халва^лара
+GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+foma[1]: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply up таба^ны
+таба+pos+N+num+sg+case+acc
+foma[1]: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply up халва^ны
+GUESS+халва+pos+N+num+sg+case+acc
+foma[1]: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: apply down балык+pos+N+num+sg+case+acc
+балыг^ы
+foma[1]: 
+INFO:root:starting foma...
+INFO:root:started
+INFO:root:activated sakha source
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:starting foma...
+INFO:root:started
+INFO:root:activated sakha source
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None
+DEBUG:root:('flookup', '', '-x', 'sakha_guess.bin'), None, 1
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None, None, <_io.BufferedReader name=4>
+DEBUG:root:('flookup', '', '-x', 'sakha_guess.bin'), None, 1
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:('flookup', '', '-x', 'sakha_guess.bin'), None, 1
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:('flookup', '', '-x', 'sakha_guess.bin'), None, 1
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:('flookup', '', '-x', 'sakha_guess.bin'), None, 1
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0^\xd0\xbb\xd0\xb0\xd1\x80\xd0\xb0"'
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x85\xd0\xb0\xd0\xbb\xd0\xb2\xd0\xb0^\xd0\xbb\xd0\xb0\xd1\x80\xd0\xb0"'
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0^\xd0\xbd\xd1\x8b"'
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x85\xd0\xb0\xd0\xbb\xd0\xb2\xd0\xb0^\xd0\xbd\xd1\x8b"'
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd0\xb1\xd0\xb0\xd0\xbb\xd1\x8b\xd0\xba+pos+N+num+sg+case+acc"'
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd0\xb4\xd0\xb8\xd1\x8d+pos+V+tense+pres+num+sg+pers+3"'
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0^\xd0\xbb\xd0\xb0\xd1\x80\xd0\xb0"'
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x85\xd0\xb0\xd0\xbb\xd0\xb2\xd0\xb0^\xd0\xbb\xd0\xb0\xd1\x80\xd0\xb0"'
+INFO:root:res is: 
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:b'"\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0^\xd0\xbb\xd0\xb0\xd1\x80\xd0\xb0"'
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара"
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара"
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"халва^лара"
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^ны"
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+DEBUG:root:"халва^ны"
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+DEBUG:root:"балык+pos+N+num+sg+case+acc"
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+DEBUG:root:"диэ+pos+V+tense+pres+num+sg+pers+3"
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"халва^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^ны", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+DEBUG:root:"халва^ны", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:res is: 
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+DEBUG:root:"балык+pos+N+num+sg+case+acc", ('flookup', '-i', '-x', 'sakha_guess.bin')
+INFO:root:res is: +?
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+DEBUG:root:"диэ+pos+V+tense+pres+num+sg+pers+3", ('flookup', '-i', '-x', 'sakha_guess.bin')
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('/bin/flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+DEBUG:root:None, None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:"таба^лара", ('flookup', '', '-x', 'sakha_guess.bin')
+DEBUG:root:None, None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None, None, <_io.BufferedReader name=4>
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None, None, <_io.BufferedReader name=4>
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None, None, <_io.BufferedReader name=4>
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+DEBUG:root:ech code is None, None, <_io.BufferedReader name=4>
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: b''
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: b''
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: b''
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: b''
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'+?\n\n'
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'+?\n\n'
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'+?\n\n', None)
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'+?\n\n', None)
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'+?\n\n', None)
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'+?\n\n', None)
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'', None)
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'+?\n\n', None)
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: (b'+?\n\n', None)
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: []
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: []
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: []
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: []
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: []
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: []
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: None
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0+pos+N+num+sg+case+nom+poss+3pl\n\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0+pos+N+num+pl+case+nom+poss+3pl\n\n'
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'GUESS+\xd1\x85\xd0\xb0\xd0\xbb\xd0\xb2\xd0\xb0+pos+N+num+sg+case+nom+poss+3pl\nGUESS+\xd1\x85\xd0\xb0\xd0\xbb\xd0\xb2\xd0\xb0+pos+N+num+pl+case+nom+poss+3pl\n\n'
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'\xd1\x82\xd0\xb0\xd0\xb1\xd0\xb0+pos+N+num+sg+case+acc\n\n'
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'GUESS+\xd1\x85\xd0\xb0\xd0\xbb\xd0\xb2\xd0\xb0+pos+N+num+sg+case+acc\n\n'
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'\xd0\xb1\xd0\xb0\xd0\xbb\xd1\x8b\xd0\xb3^\xd1\x8b\n\n'
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: b'+?\n\n'
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+
+
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+
+
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+
+
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+
+
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+
+
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+
+
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl таба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl GUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'up', 'query': 'балык^сыт', 'expected': 'балык+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: балык+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'отон', 'query_type': 'up', 'query': 'отон^ньут', 'expected': 'отон+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'ырыа', 'query_type': 'up', 'query': 'ырыа^һыт', 'expected': 'ырыа+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+ырыа+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'от', 'query_type': 'up', 'query': 'от^чут', 'expected': 'от+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'сонор', 'query_type': 'up', 'query': 'сонор^дьут', 'expected': 'сонор+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'кыыл', 'query_type': 'up', 'query': 'кыыл^дьыт', 'expected': 'кыыл+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl\nтаба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl\nGUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'up', 'query': 'балык^сыт', 'expected': 'балык+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: балык+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'отон', 'query_type': 'up', 'query': 'отон^ньут', 'expected': 'отон+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+отон+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'ырыа', 'query_type': 'up', 'query': 'ырыа^һыт', 'expected': 'ырыа+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+ырыа+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'от', 'query_type': 'up', 'query': 'от^чут', 'expected': 'от+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+от+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'сонор', 'query_type': 'up', 'query': 'сонор^дьут', 'expected': 'сонор+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+сонор+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'кыыл', 'query_type': 'up', 'query': 'кыыл^дьыт', 'expected': 'кыыл+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+кыыл+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl\nтаба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl\nGUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'up', 'query': 'балык^сыт', 'expected': 'балык+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: балык+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'отон', 'query_type': 'up', 'query': 'отон^ньут', 'expected': 'отон+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+отон+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'ырыа', 'query_type': 'up', 'query': 'ырыа^һыт', 'expected': 'ырыа+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+ырыа+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'от', 'query_type': 'up', 'query': 'от^чут', 'expected': 'от+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+от+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'сонор', 'query_type': 'up', 'query': 'сонор^дьут', 'expected': 'сонор+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+сонор+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'кыыл', 'query_type': 'up', 'query': 'кыыл^дьыт', 'expected': 'кыыл+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+кыыл+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl\nтаба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl\nGUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: +?
+INFO:root:read test items
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'up', 'query': 'балык^сыт', 'expected': 'балык+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: балык+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'отон', 'query_type': 'up', 'query': 'отон^ньут', 'expected': 'отон+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+отон+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'ырыа', 'query_type': 'up', 'query': 'ырыа^һыт', 'expected': 'ырыа+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+ырыа+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'от', 'query_type': 'up', 'query': 'от^чут', 'expected': 'от+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+от+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'сонор', 'query_type': 'up', 'query': 'сонор^дьут', 'expected': 'сонор+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+сонор+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'кыыл', 'query_type': 'up', 'query': 'кыыл^дьыт', 'expected': 'кыыл+pos+N+deriv+ag+num+sg+case+nom', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+кыыл+pos+N+deriv+ag+num+sg+case+nom
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^лара', 'expected': 'таба+pos+N+num+pl+case+nom+poss+3pl\nтаба+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+nom+poss+3pl
+таба+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^лара', 'expected': 'GUESS+халва+pos+N+num+pl+case+nom+poss+3pl\nGUESS+халва+pos+N+num+sg+case+nom+poss+3pl', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+nom+poss+3pl
+GUESS+халва+pos+N+num+pl+case+nom+poss+3pl
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'таба', 'query_type': 'up', 'query': 'таба^ны', 'expected': 'таба+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: таба+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'халва', 'query_type': 'up', 'query': 'халва^ны', 'expected': 'GUESS+халва+pos+N+num+sg+case+acc', 'actual': '', 'is_match': ''}
+INFO:root:res is: GUESS+халва+pos+N+num+sg+case+acc
+INFO:root:item is: {'pos_stem': 'N', 'stem': 'балык', 'query_type': 'down', 'query': 'балык+pos+N+num+sg+case+acc', 'expected': 'балыг^ы', 'actual': '', 'is_match': ''}
+INFO:root:res is: балыг^ы
+INFO:root:item is: {'pos_stem': 'V', 'stem': 'диэ', 'query_type': 'down', 'query': 'GUESS+диэ+pos+V+tense+pres+num+sg+pers+3', 'expected': 'д^иир', 'actual': '', 'is_match': ''}
+INFO:root:res is: д^иир

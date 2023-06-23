@@ -1,0 +1,66 @@
+digraph A {
+rankdir = LR;
+node [shape=circle,style=filled] 0
+node [shape=circle,style=filled] 1
+node [shape=circle,style=filled] 2
+node [shape=circle,style=filled] 3
+node [shape=circle,style=filled] 4
+node [shape=circle,style=filled] 5
+node [shape=circle,style=filled] 6
+node [shape=circle,style=filled] 7
+node [shape=circle,style=filled] 8
+node [shape=circle,style=filled] 9
+node [shape=circle,style=filled] 10
+node [shape=circle,style=filled] 11
+node [shape=circle,style=filled] 12
+node [shape=circle,style=filled] 13
+node [shape=circle,style=filled] 14
+node [shape=circle,style=filled] 15
+node [shape=circle,style=filled] 16
+node [shape=circle,style=filled] 17
+node [shape=circle,style=filled] 18
+node [shape=circle,style=filled] 19
+node [shape=circle,style=filled] 20
+node [shape=circle,style=filled] 21
+node [shape=circle,style=filled] 22
+node [shape=circle,style=filled] 23
+node [shape=circle,style=filled] 24
+node [shape=circle,style=filled] 25
+node [shape=circle,style=filled] 26
+node [shape=doublecircle,style=filled] 27
+0 -> 4 [label="б "];
+0 -> 1 [label="т "];
+1 -> 2 [label="а "];
+2 -> 3 [label="б "];
+3 -> 9 [label="а "];
+4 -> 5 [label="а "];
+5 -> 6 [label="л "];
+6 -> 7 [label="<ы:н> "];
+7 -> 8 [label="<0:ы> "];
+8 -> 9 [label="к "];
+9 -> 22 [label="<+pos:0> "];
+9 -> 10 [label="<+pos:^> "];
+10 -> 11 [label="<+N:0> "];
+11 -> 13 [label="<+num:л> "];
+11 -> 12 [label="<+num:0> "];
+12 -> 16 [label="<+sg:0> "];
+13 -> 14 [label="<+pl:а> "];
+14 -> 15 [label="<0:р> "];
+15 -> 16 [label="<0:^> "];
+15 -> 26 [label="<+case:0> "];
+16 -> 19 [label="<+case:н> "];
+16 -> 18 [label="<+case:г> "];
+16 -> 17 [label="<+case:т> "];
+17 -> 20 [label="<+abl:а> "];
+17 -> 27 [label="<+part:а> "];
+18 -> 27 [label="<+dat:а> "];
+19 -> 21 [label="<0:ы> "];
+19 -> 20 [label="<+ins:а> "];
+20 -> 27 [label="<0:н> "];
+21 -> 27 [label="<+ycheck:0> <+acc:0>\n"];
+22 -> 23 [label="<+N:0> "];
+23 -> 24 [label="<+num:0> "];
+24 -> 25 [label="<+sg:0> "];
+25 -> 26 [label="<+case:0> "];
+26 -> 27 [label="<+nom:0> "];
+}

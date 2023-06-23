@@ -1,0 +1,8 @@
+digraph A {
+rankdir = LR;
+node [shape=doublecircle,style=filled] 0
+node [shape=circle,style=filled] 1
+0 -> 1 [label="<ы:н> "];
+0 -> 0 [label="н @ +acc +case "];
+1 -> 0 [label="<0:ы> "];
+}
